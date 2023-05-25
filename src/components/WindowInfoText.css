@@ -1,0 +1,40 @@
+.infoWrapper {
+  height: 30%;
+  width: 80%;
+  min-width: 300px;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.infoWrapper button {
+  font-size: 22px;
+  font-weight: 600;
+  height: 50px;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.lightToggle {
+  background-color: antiquewhite;
+  color: #282c34;
+}
+
+.lightToggle:active {
+  -webkit-box-shadow: inset 0px 0px 24px 0px #282c34;
+  -moz-box-shadow: inset 0px 0px 24px 0px #282c34;
+  box-shadow: inset 0px 0px 24px 0px #282c34;
+}
+
+.darkToggle {
+  background-color: #282c34;
+  color: antiquewhite;
+}
+
+.darkToggle:active {
+  -webkit-box-shadow: inset 0px 0px 24px 0px antiquewhite;
+  -moz-box-shadow: inset 0px 0px 24px 0px antiquewhite;
+  box-shadow: inset 0px 0px 24px 0px antiquewhite;
+}
